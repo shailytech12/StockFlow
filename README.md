@@ -29,7 +29,7 @@ The project demonstrates how streaming financial data can be ingested, processed
 
 ---
 
-## Project Architecture
+## Architecture
 
 <img src="Project Architecture.png">
 
@@ -82,13 +82,13 @@ bin/kafka-server-start.sh config/server.properties
 ### 4. Run Producer
 
 ```bash
-python Producer.py
+python producer.py
 ```
 
 ### 5. Run Consumer
 
 ```bash
-python Consumer.py
+python consumer.py
 ```
 
 ---
